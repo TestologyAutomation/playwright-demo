@@ -4,7 +4,7 @@ test('Google search demo', async ({ page }) => {
 
   // Open Google
   await page.goto('https://www.google.com');
-
+  console.log("Running CI automation demo");
   // Type search query
   await page.fill('[name="q"]', 'Playwright Test automation by NiteshJain QaTestology');
 
